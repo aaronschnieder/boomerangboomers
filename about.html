@@ -1,0 +1,194 @@
+<html>
+<head>
+  
+  <style>
+    
+    h1 {
+  text-align:center;
+  
+  color:blue;
+  text-shadow:34px 10px grey;
+  margin:auto;
+  margin-bottom:10px;
+  width: 400px;
+  height:60px;
+  animation: pulse 5s infinite;
+}
+#boomerang{
+  width:400px;
+  margin:0 auto;
+  display: block;
+  border: 20px solid black;
+  
+}
+#boomerang:hover {
+  border: 30px solid blue;
+  text-decoration:underline;
+}
+@keyframes pulse {
+  0% {
+    color: white;
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+#advertisement{
+   text-align:center;
+   margin:auto;
+  }
+#Sale{
+  margin:auto;
+  text-align:center;
+  color:orange;
+}
+#Sale:hover {
+  color:blue;
+  text-decoration:underline;
+}
+.box{
+  width:42%;
+  float:auto;
+}
+
+/* menu css */
+ 
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:yellow;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:50%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+#ordertime{
+  text-align:center;
+  margin:auto;
+}
+
+  </style>
+</head>
+<body>
+  
+  <nav id="primary_nav_wrap">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About boomerang boomers </a></li>
+  <li><a href="form.html">Buy now</a></li>
+  <li><a href="games.html">Games!</a></li>
+</ul>
+</nav>
+<h1>About Boomerang Boomers</h1>
+<hr />
+<h6 id="advertisement">This is a add</h6>
+<a href="https://corporate.homedepot.com/image-gallery">
+  <img id="boomerang" src="https://corporate.homedepot.com/sites/default/files/styles/thumbnail/public/image_gallery/THD_logo.jpg?itok=dWP4RaDu" />
+</a>
+<h2 id="Sale">For Sale 6.99 Then Add Paint For $1!</h2>
+<h2 id="ordertime">Takes 0-2 Days and five star quality</h2>
+<hr />
+<div class="box">
+ <h2>About boomerang boomers</h2> <p>(Warning  this paragraph is on the front page) Me and my friend live on a boring street. To make things more fun we wanted to make  boomerangs(and sell them!) My name is Caleb. My friend's name is Colin. I like to code.  click the add to go to my faveote store's website.
+</p>
+<hr/>
+<p>Aaaaa more about me. My name is Caleb I started this business when I was nine I wanted to make boomerangs because I had to make one for school. (dont ask me ,why)</p>
+<hr/>
+<p>Then my friend,Colin got interested in boomerangs and wanted to help so I gave 35% of the company. Colin helps me paint and more! Colin joind when he was eight. Colin helps with the tools and supplies. </p>
+
+<br />
+</div>
+<h2>About the company</h2> <p>Our boomerangs cost 6.99. Then you can add a $1 if you want paint.Every $100 that is in our company we give $20 to charity. Click on the linck under the add to buy a boomerang. I am inventing a boomerang that folds in your pocket!  All the money I get from making boomerangs I put towards Inventing A boomerang that folds in your pocket. I also came out with A make your own Boomerang!! I am allso making kites and toys. If you want a make your own boomerang E-mail and ask for a make your own boomerang large or small. My Email is caleb.schnieder@outlook.com A large make your own boomerang cost $6 and a small cost $2.
+</p>    <br />
+
+<script type="text/javascript">
+  
+  var BoomerangBoomers = document.getElementById("boomerang");
+BoomerangBoomers.onclick = myFunction;
+
+function myFunction() {
+  alert("Go Boomerang Boomers!");
+}
+  
+ var sale =document.getElementById("Sale");
+sale.onclick = Salefunc;
+function Salefunc(){
+  window.open("form.html");
+}
+
+</script>
+
+
+</body>
+
+
+</html>
